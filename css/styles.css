@@ -144,3 +144,72 @@ footer {
     align-items: flex-end;
     gap: 10px;
 }
+
+@media (max-width: 600px) {
+    header, footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #contenedorHeader, #contenedorFooter {
+        width: 100%;
+        display: block;
+    }
+
+    #navHeader a {
+        margin: 5px 0;
+        display: block;
+    }
+
+    #contenedorMain {
+        padding: 20px;
+        background-size: cover;
+        height: auto;
+    }
+
+    #saludo {
+        font-size: 40px;
+    }
+
+    #seccionMain, #seccionCubo, .cuadro-numero, .rectangulo-numero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cuadro-numero, .rectangulo-numero {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .imagenes-meta {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .img-meta {
+        height: 120px;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    #momonga {
+        width: 50px;
+        top: 10px;
+    }
+
+    #ikerImg, #deltarune, #musicaYT, #udla {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #redesSociales {
+        align-items: center;
+        gap: 5px;
+    }
+}

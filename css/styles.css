@@ -115,7 +115,7 @@ display: inline-block;
 position: right;
     align-items: flex-end;
     gap: 20px;
-    margin-left: auto; /* Empuja el bloque a la derecha */
+    margin-left: auto;
     margin-right: 0;
 }
 
